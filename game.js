@@ -75,7 +75,7 @@ function create() {
         let posX = Phaser.Math.RND.between(50, 650);
         let posY = Phaser.Math.RND.between(300, 650);
 
-        // Adicionando cada plataforma à lista e ao grupo de física
+        // Adicionando cada plataforma  ao grupo de física
         let plataforma = this.physics.add.staticImage(posX, posY, 'tijolos');
         
         // Adiciona colisão entre o alien e cada plataforma
