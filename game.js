@@ -65,6 +65,8 @@ function create() {
     coracao.setCollideWorldBounds(true);
     coracao.setBounce(0.7);
 
+
+    //teste
      // Configuração da moeda
      moeda = this.physics.add.sprite(larguraJogo/2, 0, 'moeda');
      moeda.setCollideWorldBounds(true);
